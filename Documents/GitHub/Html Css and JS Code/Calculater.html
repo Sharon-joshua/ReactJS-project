@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Simple Interest Calculator</title>
+    </head>
+    <body>
+        <!-- //Principal Amount Textbox -->
+        <input type="text" id="Principal" 
+        name="PrincipalAmount"
+        value ="PrincipalAmount">
+
+        <!-- //Interest rate Textbox -->
+        <input type="text" id="rate"
+        name="rate"
+        value="rate">
+        
+        <!-- // Time Period Textbox -->
+        <input type="text" id="years"
+        name="years"
+        value="years">
+
+        <button type="button"
+        onclick="calculateSimpleInterest()">
+        CalculeSimpleInterest
+        </button>
+        <p id="result"></p>
+
+        <script>
+            function calculateSimpleInterest(){
+                console.log("calculating....");
+                var principalAmount=
+                document.getElementById("Principal")
+                .value;
+                var rate =
+                document.getElementById("rate")
+                .value;
+            }

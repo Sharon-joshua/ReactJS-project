@@ -1,0 +1,144 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    height: 100vh;
+}
+
+select, input[type="text"], input[type="number"] {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    border-color: #e2e2e2;
+    color: #333;
+    outline: 0;
+    font-size: 14px;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    border: 0;
+    outline: 0;
+    font-size: 14px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"] {
+    padding-bottom: 10px;
+}
+
+select {
+    height: 40px;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.header {
+    background: #0071DC;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: 10%;
+    border-radius: .4rem;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+}
+
+.header span {
+    margin-right: 20px;
+}
+
+.page-content {
+    height: 90%;
+    display: flex;
+}
+
+.filters {
+    flex: 1;
+    padding: 20px;
+    margin: 0 20px 20px 0;
+    background: #fff;
+    border-radius: .4rem;
+    box-shadow: 0 0 11px 6px hsla(0,0%,77.6%,.17);
+}
+
+.filters label {
+    display: flex;
+    margin: 10px;
+}
+
+.filters label span {
+    margin-left: 10px;
+}
+
+.listing {
+    flex: 3;
+    background: #fff;
+}
+
+.text-input {
+    border: 0;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.row {
+    display: flex;
+    height: 200px;
+    border-radius: .4rem;
+    box-shadow: 0 0 11px 6px hsla(0,0%,77.6%,.17);
+    margin-bottom: 10px;
+}
+
+.mobile-image {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-image img {
+    width: 150px;
+    height: 150px;
+}
+
+.mobile-content {
+    width: 60%;
+    padding: 20px 0;
+}
+
+.admin-container {
+    width: 60%;
+    border-radius: .4rem;
+    box-shadow: 0 0 11px 6px hsla(0,0%,77.6%,.17);
+    margin: 0 auto;
+}
+
+.admin-row {
+    margin: 20px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-data {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .4rem;
+    box-shadow: 0 0 11px 6px hsla(0,0%,77.6%,.17);
+    font-weight: bold;
+    margin-top: 0;
+}
+
+
