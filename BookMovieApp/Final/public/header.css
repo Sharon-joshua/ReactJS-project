@@ -1,0 +1,32 @@
+.header {
+    background-color: #222;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+}
+
+#loginbutton {
+    float: right;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 100px;
+
+}
+
+#loginbutton:active {
+    float: right;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 120px;
+
+}
+
+#movieLogo {
+    background-color: #ff7f7f;
+    height: 35px;
+    animation: spin 8s linear infinite;
+}
+    @keyframes spin { 100% { transform: rotateY(360deg); } }
+    
+
